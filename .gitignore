@@ -1,0 +1,27 @@
+# Environment variables
+.env
+.env.local
+
+# Logs and working directories
+workdir/
+*.log
+file_index
+
+# Build output
+/bin/
+dist/
+
+# IDE / OS
+.vscode/
+.idea/
+*.swp
+.DS_Store
+
+# Certificates
+*.pem
+*.key
+
+# Web client
+web/package-lock.json
+web/node_modules/
+web/dist/
